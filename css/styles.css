@@ -1,0 +1,19 @@
+.navbar {
+    background-image: url(../img/ladrillos-blancos-navbar.png);
+    background-size: cover;
+    height: 5em;
+}
+.nav-item-navbar {
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    font-size: 1.4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: background-image 10s ease-in-out;
+    background-image: radial-gradient(circle at bottom, #00000000, #00000000);
+}
+.nav-item-navbar:hover {
+    background-image: radial-gradient(circle at bottom, #ffd66480, #00000000);
+    transition: background-image 10s ease-in-out;
+}

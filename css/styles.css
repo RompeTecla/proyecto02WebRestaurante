@@ -3,11 +3,11 @@ body {
     width: 100vw;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 .navbar1 {
     background-image: url(../img/ladrillos-blancos-navbar.png);
     background-size: cover;
-    height: 5em;
     width: 100vw;
 }
 .logo-navbar1:hover {
@@ -21,7 +21,6 @@ body {
     margin-right: 0.5em;
     font-size: 1.2em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: none !important;
     transition: 1.5s;
     border-radius: 100%;
 }
@@ -35,4 +34,27 @@ body {
 }
 .plato {
     height: 15em
+}
+
+/* INDEX STYLES */
+
+.logo-plato {
+    height: 80vh;
+}
+.presentacion-img:hover {
+    transition: 0.5s all ease-in-out;
+    transform: scale(1.1);
+}
+.background-index {
+    background-image: url(../img/fondo-index.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+.info-text {
+    font-size: 1.3em;
+    font-weight: 600;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

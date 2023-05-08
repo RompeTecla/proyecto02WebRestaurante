@@ -61,3 +61,24 @@ body {
 .letrasinefecto{
     text-decoration: none;
 }
+.overflow {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.reservasbox {
+    background-color: rgba(255, 255, 255, 0.507);
+    border-radius: 1em;
+    height: 50vh;
+}
+.aceptar-btn {
+    background-color: rgba(241, 137, 63, 0.582);
+    border: 0.16em solid rgba(255, 255, 255, 0.795);
+    color: white;
+}
+.form-container {
+    margin-top: 30vh;
+}
+.confirmbox {
+    background-color: rgba(255, 255, 255, 0.507);
+    border-radius: 1em;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reservas</title>
+    <title>Reserva confirmada</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     
@@ -41,57 +41,17 @@
   </div>
 
 <!-- "RESERVAS" -->
-<div class="container-fluid background-index overflow">
-  <div class="row justify-content-center">
-      <div class="col col-10 col-sm-8 col-lg-6">
-          <div class="mt-5 reservasbox">
-          <div class="text-center">
-              <h2>RESERVAS</h2>
-              <p class="fs-5">TALLER DE LA TAPA. Av. de Montiel 28, Benaguacil, Valencia.</p>
-          </div>
-          <div class="container fs-4">
-              <form>
-                <div class="formulario-reservas">
-                  <div for="comensales">Número de comensales:</div>
-                  <select id="comensales" class="form-control">
-                    <option>1 pax.</option>
-                    <option>2 pax.</option>
-                    <option>3 pax.</option>
-                    <option>4 pax.</option>
-                    <option>5 pax.</option>
-                    <option>6 pax.</option>
-                    <option>7 pax.</option>
-                    <option>8 pax.</option>
-                    <option>9 pax.</option>
-                    <option>10 pax.</option>
-                  </select>
+<div class="container-fluid background-index">
+    <div class="row justify-content-center">
+        <div class="col col-10 col-sm-8 col-lg-6 form-container confirmbox">
+            <div class="box-reservation">
+                <div class="text-center text-success-emphasis">
+                    <h2>RESERVA CONFIRMADA</h2>
+                    <p class="tx-form text-primary-emphasis">TALLER DE LA TAPA. Av. de Montiel 28, Benaguacil, Valencia.</p>
                 </div>
-                <div class="formulario-reservas pt-1">
-                  <div for="reservas">Fecha de la reserva:</div>
-                  <input type="date" class="form-control" id="reservas">
-                </div>
-                <div class="selector pt-1">
-                  <div for="hora">Hora de la reserva:</div>
-                <select class="form-select" aria-label="Default select example">
-                  <option value="1">13:30</option>
-                  <option value="2">14:00</option>
-                  <option value="3">14:30</option>
-                  <option value="4">15:00</option>
-                  <option value="5">15:30</option>
-                  <option value="1">20:00</option>
-                  <option value="2">20:30</option>
-                  <option value="3">21:00</option>
-                  <option value="4">21:30</option>
-                  <option value="5">22:00</option>
-                  <option value="6">22:30</option>
-                  <option value="7">23:00</option>
-                </select>
-              </div>
-              <a class="btn aceptar-btn mt-2" href="../pages/reservaok.html" role="button">ACEPTAR</a>
             </div>
-          </div>
-      </div>
-  </div>
+        </div>
+    </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>

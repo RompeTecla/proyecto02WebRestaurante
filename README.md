@@ -1,6 +1,6 @@
 <center>
 
-# :hamburger::potato:<u><font color= "orange">Rte. El Taller de la Tapa</font></u>:meat_on_bone:	:cheese:
+# :hamburger::potato:<u> <font color="orange"> Rte. El Taller de la Tapa </font> </u>:meat_on_bone:	:cheese:
 
 
 
@@ -16,7 +16,16 @@ En el desarrollo de la web se han necesitado: un index.HTML que hace la estructu
 <p align="center">
 <img src="https://raw.githubusercontent.com/RedkarRiv/Rest_Project/master/img/tecnologias.jpg"  width="" height="100"></p>
 
+<img src="https://raw.githubusercontent.com/RompeTecla/proyecto02WebRestaurante/main/img/imreadme/tecnologias.html"  width="" height="100"></p>
+
+
 La estructura de la página se ha realizado con elementos de Bootstrap y clases afines para evitar conflictos durante la ejecución y mejorar la escalabilidad. Solo se ha aplicado clases css propias en los casos en los que era imperativo usarlo.
+
+### Cómo funciona
+
+Inicialmente nos encontraremos con una web en forma de "bienvenida" con un plato a modo de botón y la dirección del local en el inferior de la página. Botón que al pasar por encima el puntero hace un efecto de hover transform y al hacer click en el, te redirige a la página de "la carta"
+
+
 
 ### Errores conocidos
 

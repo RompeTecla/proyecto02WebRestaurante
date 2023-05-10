@@ -46,7 +46,7 @@ body {
     transform: scale(1.1);
 }
 .background-index {
-    background-image: url(../img/fondo-index.jpg);
+    background-image: url(./img/fondo-index.jpg);
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
@@ -65,6 +65,8 @@ body {
     overflow-y: hidden;
     overflow-x: hidden;
 }
+/*reservas styles*/
+
 .reservasbox {
     background-color: rgba(255, 255, 255, 0.507);
     border-radius: 1em;
@@ -81,7 +83,4 @@ body {
 .confirmbox {
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 1em;
-}
-.contactbox {
-    background: none;
 }

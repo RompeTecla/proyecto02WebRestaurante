@@ -1,7 +1,6 @@
 body {
     height: 100vh;
     width: 100vw;
-    margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
@@ -32,6 +31,17 @@ body {
     margin: auto;
     width: 17em;
 }
+
+/*FUERZO CON ESTE ESTILO QUE DESAPAREZCA EL SCROLL HORIZONTAL EN NEXUS 5, PERO CON ESTO O SIN ESTO, HACE EXACTAMENTE LO MISMO.
+EL SCROLL APARECE AL ACTIVAR LA "VISTA INSPECCIONAR", UNA VEZ CARGADA LA VISTA, LE DOY A RECARGAR PÁGINA Y DESAPARECE EL SCROLL. 
+                                            SIGO SIN ENTENDER POR QUE.*/
+
+                                            @media (max-width: 767px) {
+                                                .container-fluid {
+                                                    overflow-x: hidden;
+                                                }
+                                            }
+
 .plato {
     height: 15em
 }
@@ -46,11 +56,10 @@ body {
     transform: scale(1.1);
 }
 .background-index {
-    background-image: url(./img/fondo-index.jpg);
+    background-image: url(../img/fondo-index.jpg);
     background-size: cover;
-    background-attachment: fixed;
-    height: 100%;
-    width: 100%;
+    height: 120%;
+    width: 120%;
 }
 .info-text {
     font-size: 1.3em;
@@ -61,11 +70,8 @@ body {
 .letrasinefecto{
     text-decoration: none;
 }
-.overflow {
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-/*reservas styles*/
+
+/*RESERVAS STYLES*/
 
 .reservasbox {
     background-color: rgba(255, 255, 255, 0.507);

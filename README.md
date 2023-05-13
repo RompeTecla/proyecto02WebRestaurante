@@ -25,12 +25,19 @@ Inicialmente nos encontraremos con una web en forma de "bienvenida" con un plato
 
 <img src="https://raw.githubusercontent.com/RompeTecla/proyecto02WebRestaurante/master/img/imgreadme/paginaprincipal.png"  width="" height="280">
 <p align="center">
+
+En dicha carta veremos los diferentes servicios que ofrece El Taller. También a partir de esta página ya vemos una "navbar" superior que servirá para navegar a: la página de inicio (al hacer click en el logo del Rte.), a la página de "Nuestra carta" y a "Reservas".
+Y por supuesto, al clickar en cada uno de los servicios accederemos a el contenido de los servicios. Ej.: Desayunos, tapas, carnes y pescados, etc.
 <img src="https://raw.githubusercontent.com/RompeTecla/proyecto02WebRestaurante/master/img/imgreadme/paginacarta.png"  width="" height="280"></p>
+
+Como extra decidí añadirle la página de reservas (aunque no se almacenen datos en ninguna base) me parecía correcto añadirle el detalle de dicha página y que esta al aceptar la reserva te redirigiera a la página de "reserva confirmada"
+<img src="https://raw.githubusercontent.com/RompeTecla/proyecto02WebRestaurante/master/img/imgreadme/paginareservas.png"  width="" height="200"><img src="https://raw.githubusercontent.com/RompeTecla/proyecto02WebRestaurante/master/img/imgreadme/paginareservaconfirmada.png"  width="" height="200">
 
 
 ### Errores conocidos
 
 Al crear una reserva no se envia ningun formulario ni se crea ningún archivo de registro.
+No he conseguido solucionar el problema con el scroll horizontal al abrir el inspector con responsive para nexus 5. Una vez abierto el inspector, recargas página y el scroll desaparece. Navegas por todas las páginas y sigue sin haber scroll horizontal. Sospecho que pueda ser problema de la caché del navegador. (abierta la web en mi smartphone S.Galaxy Note 10+ y el scroll horizontal es inexistente)
 
 ### Agradecimientos
 
